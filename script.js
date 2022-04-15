@@ -6,6 +6,8 @@ let nomeF = ['Federica','Chiara','Lucia','Silvia','Anna','Beatrice','Giulia','Gr
 let azione = ['bruciat','ars','frustat','inculat','soffocat','percoss','perseguitat','sventrat','crocifiss','inforcat','pungolat','accecat'];
 let oggetto = ['una mazza ferrata','una frusta','un gatto','la croce','il tabernacolo','un leccalecca gigante','un cilicio','Excalibur','un secchio di bitcoin','un nido di vespe','la sacra sindone','il graal','le mutande del papa','un bouquet di calle'];
 let caratt = ['infuocat','infuriat','annoiat','scomunicat','pedofil','drogat','indemoniat','canterin'];
+let canvas = document.querySelector('.canvas')
+
 
 function random(max){
     return Math.floor(Math.random()*max);
@@ -34,6 +36,7 @@ function create(gen){
 document.querySelector('button').addEventListener('click',() => {
     let gen = random(gender.length);
     let ent = entree[random(entree.length)];
+    canvas.innerHTML = ''
 
  
     if(ent[ent.length-1] != 'a' && ent[ent.length-1] != 'o' && ent[ent.length-1] != 'i'){
@@ -52,5 +55,5 @@ document.querySelector('button').addEventListener('click',() => {
     let ogg = oggetto[random(oggetto.length)];
     let cara = caratt[random(caratt.length)] + gender[gen2];
     console.log()
-    console.log(`${ent} ${personaggio1} ${act} con ${ogg} da ${personaggio2} ${cara}`)
+    canvas.innerHTML = `${ent} ${personaggio1} ${act} con ${ogg} da ${personaggio2} ${cara}`;
 });

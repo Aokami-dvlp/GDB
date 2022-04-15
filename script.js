@@ -3,8 +3,8 @@ let entree = ['Porc','Maledett','Dannat','Mannaggia','Fanculo','Crepi','Schiatti
 let titolo = ["Sant'",'San ','Santa '];
 let nomeM = ['Gennaro','Marco','Ambrogio','Luca','Gabriele','Orazio','Lorenzo','Edoardo','Emanuele','Fulvio','Antonio'];
 let nomeF = ['Federica','Chiara','Lucia','Silvia','Anna','Beatrice','Giulia','Greta'];
-let azione = ['bruciat','ars','frustat','inculat','soffocat','percoss','perseguitat','sventrat','crocifiss','inforcat','pungolat','accecat'];
-let oggetto = ['una mazza ferrata','una frusta','un gatto','la croce','il tabernacolo','un leccalecca gigante','un cilicio','Excalibur','un secchio di bitcoin','un nido di vespe','la sacra sindone','il graal','le mutande del papa','un bouquet di calle'];
+let azione = ['bruciat','ars','frustat','inculat','soffocat','smembrat','divorat','percoss','perseguitat','sventrat','crocifiss','inforcat','pungolat','accecat'];
+let oggetto = ['i carboni ardenti','una spada laser','un rosario di kriptonite','una mazza ferrata','una frusta','un gatto','la croce','il tabernacolo','un leccalecca gigante','un cilicio','Excalibur','un secchio di bitcoin','un nido di vespe','la sacra sindone','il graal','le mutande del papa','un bouquet di calle'];
 let caratt = ['infuocat','infuriat','annoiat','scomunicat','pedofil','drogat','indemoniat','canterin'];
 let canvas = document.querySelector('.canvas')
 

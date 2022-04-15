@@ -1,10 +1,10 @@
 let gender = ['o','a'];
 let entree = ['Porc','Maledett','Dannat','Mannaggia','Fanculo','Crepi','Schiatti'];
 let titolo = ["Sant'",'San ','Santa '];
-let nomeM = ['Gennaro','Marco','Ambrogio','Luca','Gabriele','Orazio','Lorenzo'];
-let nomeF = ['Federica','Chiara','Lucia','Silvia','Anna','Beatrice','Giulia'];
+let nomeM = ['Gennaro','Marco','Ambrogio','Luca','Gabriele','Orazio','Lorenzo','Edoardo','Emanuele','Fulvio','Antonio'];
+let nomeF = ['Federica','Chiara','Lucia','Silvia','Anna','Beatrice','Giulia','Greta'];
 let azione = ['bruciat','ars','frustat','inculat','soffocat','percoss','perseguitat','sventrat','crocifiss','inforcat','pungolat','accecat'];
-let oggetto = ['la croce','il tabernacolo','un leccalecca gigante','un cilicio','Excalibur','un secchio di bitcoin','un nido di vespe','la sacra sindone','il graal','le mutande del papa'];
+let oggetto = ['una mazza ferrata','una frusta','un gatto','la croce','il tabernacolo','un leccalecca gigante','un cilicio','Excalibur','un secchio di bitcoin','un nido di vespe','la sacra sindone','il graal','le mutande del papa','un bouquet di calle'];
 let caratt = ['infuocat','infuriat','annoiat','scomunicat','pedofil','drogat','indemoniat','canterin'];
 
 function random(max){
@@ -51,6 +51,6 @@ document.querySelector('button').addEventListener('click',() => {
 
     let ogg = oggetto[random(oggetto.length)];
     let cara = caratt[random(caratt.length)] + gender[gen2];
-
+    console.log()
     console.log(`${ent} ${personaggio1} ${act} con ${ogg} da ${personaggio2} ${cara}`)
 });

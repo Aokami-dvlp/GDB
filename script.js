@@ -54,6 +54,6 @@ document.querySelector('button').addEventListener('click',() => {
 
     let ogg = oggetto[random(oggetto.length)];
     let cara = caratt[random(caratt.length)] + gender[gen2];
-    console.log()
+    canvas.style = 'display:block;'
     canvas.innerHTML = `${ent} ${personaggio1} ${act} con ${ogg} da ${personaggio2} ${cara}`;
 });

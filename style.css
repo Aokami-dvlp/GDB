@@ -35,7 +35,7 @@ button {
 }
 
 .canvas {
-    background: radial-gradient(ellipse at center, rgba(255,255,255,.9) 0%, rgba(45,213,241,.6) 50%, rgba(255,255,255,.2) 100%);
+    background: radial-gradient(ellipse at center, rgba(255,255,255,.7) 0%, rgba(45,213,241,.5) 30%, rgba(255,255,255,.4) 60%);
     text-align: center;
     width: 70%;
     padding: 20px;
